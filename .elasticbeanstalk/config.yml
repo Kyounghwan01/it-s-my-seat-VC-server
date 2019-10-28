@@ -1,12 +1,13 @@
 branch-defaults:
   master:
-    environment: null
+    environment: ItsMySeatServer-env
     group_suffix: null
 global:
   application_name: it's-my-seat-server
   branch: null
   default_ec2_keyname: aws-eb
-  default_platform: Node.js
+  default_platform: arn:aws:elasticbeanstalk:ap-northeast-2::platform/Node.js running
+   on 64bit Amazon Linux/4.11.0
   default_region: ap-northeast-2
   include_git_submodules: true
   instance_profile: null
