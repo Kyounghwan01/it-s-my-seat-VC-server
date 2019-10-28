@@ -8,8 +8,7 @@ environment-defaults:
 global:
   application_name: it's-my-seat-server
   default_ec2_keyname: null
-  default_platform: arn:aws:elasticbeanstalk:ap-northeast-2::platform/Node.js running
-    on 64bit Amazon Linux/4.11.0
+  default_platform: node.js
   default_region: ap-northeast-2
   include_git_submodules: true
   instance_profile: null
