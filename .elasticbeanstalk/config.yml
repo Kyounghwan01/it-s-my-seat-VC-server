@@ -3,7 +3,7 @@ branch-defaults:
     environment: null
     group_suffix: null
 global:
-  application_name: ItsMySeatServer-env
+  application_name: it's-my-seat-server
   branch: null
   default_ec2_keyname: aws-eb
   default_platform: Node.js
